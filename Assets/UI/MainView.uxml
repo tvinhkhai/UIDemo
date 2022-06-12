@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(166, 0, 3, 255);">
+        <ui:VisualElement style="flex-direction: row; height: 350px;">
+            <ui:ListView focusable="true" name="CharacterList" style="width: 230px; margin-right: 6px; background-color: rgba(226, 61, 0, 255); border-left-color: rgba(31, 0, 0, 255); border-right-color: rgba(31, 0, 0, 255); border-top-color: rgba(31, 0, 0, 255); border-bottom-color: rgba(31, 0, 0, 255); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;" />
+            <ui:VisualElement style="align-items: flex-end; justify-content: space-between;">
+                <ui:VisualElement style="width: 276px; height: auto; background-color: rgba(255, 31, 0, 255); border-left-color: rgba(101, 0, 0, 255); border-right-color: rgba(101, 0, 0, 255); border-top-color: rgba(101, 0, 0, 255); border-bottom-color: rgba(101, 0, 0, 255); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; justify-content: center; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px;">
+                    <ui:VisualElement style="width: 120px; height: 120px; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; background-color: rgba(229, 101, 53, 255); border-left-color: rgba(60, 0, 0, 255); border-right-color: rgba(60, 0, 0, 255); border-top-color: rgba(60, 0, 0, 255); border-bottom-color: rgba(60, 0, 0, 255); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit;" />
+                    </ui:VisualElement>
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="CharacterName" style="font-size: 18px; -unity-font-style: bold;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="CharacterClass" />
+                </ui:VisualElement>
+                <ui:Button text="Select Character" display-tooltip-when-elided="true" name="SelectCharButton" style="width: 150px; background-color: rgba(217, 49, 0, 255); border-left-color: rgba(84, 0, 0, 255); border-right-color: rgba(84, 0, 0, 255); border-top-color: rgba(84, 0, 0, 255); border-bottom-color: rgba(84, 0, 0, 255); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

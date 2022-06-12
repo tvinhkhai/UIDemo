@@ -1,21 +1,18 @@
 This descrisbing how I am using UIToolkit for my future self.
 Documents: https://docs.unity3d.com/Manual/UIToolkits.html
+https://docs.unity3d.com/Manual/UIE-HowTo-CreateRuntimeUI.html
+https://www.youtube.com/playlist?list=PLmdJ8so4ffmvVKgECJF4FlnTfOq-2DcYa
+Interesting links: https://css-tricks.com/
+https://yogalayout.com/
+
+random notes:
+Supported pseudo-class: https://docs.unity3d.com/Manual/UIE-USS-Selectors-Pseudo-Classes.html
 
 UIToolkit files:
 - Stylesheets (USS based on CSS)
 - UI Documents (UXML based on XML), store hierarchy and layouts
 - C# code: data + event behaviours
 
-1. Add image resources
-2. Window -> UI Toolkit -> UI Builder
-This is a WYSIWYG editor for UI data.
-From top to bottom, left to right:
-- StyleSheets: stylesheet, as my current understanding -> define a template for reusing the style on other UI element
-- Hierarchy: a tree of what is in the screen
-- Library: basic UI element for drag and drop to Viewport
-- Viewport: dynamic size for testing, hit Preview to test UI
-- Inspector: changing properties of UI element
-3. In UI Builder save the current hierarchy
-4. Back to Unity editor, Hierarchy, right click -> UI Toolkit -> UI Document
-Drag the file saved from step 3 into Resource Asset of UI Document in step 4
-Note: I named both InventoryPopup for my demo
+
+Just follow tutorial here for now
+https://docs.unity3d.com/Manual/UIE-HowTo-CreateRuntimeUI.html
